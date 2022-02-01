@@ -21,7 +21,7 @@ export const Counter = () => {
   return (
     <div>
       <h1>{title}</h1>
-      {value}
+      the value {value}
       <button
         onClick={() => {
           dispatch(incrementByAction(2));
