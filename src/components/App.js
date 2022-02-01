@@ -21,7 +21,7 @@ export const Counter = () => {
   return (
     <div>
       <h1>{title}</h1>
-      the value {value}
+      the value from kiran branch {value}
       <button
         onClick={() => {
           dispatch(incrementByAction(2));
